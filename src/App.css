@@ -1,0 +1,42 @@
+
+body {
+  margin: 0; /* Removes default browser spacing */
+  display: flex; /* Turns the body into a flex container */
+  justify-content: center; /* Centers horizontally (Left to Right) */
+  align-items: center; /* Centers vertically (Top to Bottom) */
+  min-height: 100vh; /* Ensures the body is at least as tall as the screen */
+  background-color: #1e1e1e; /* Matches your dark theme */
+}
+.container{
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #27292c;
+  color: white;
+  height:auto;
+  width:100%;
+  border-radius: 8px;
+  max-width: 500px;
+
+  
+}
+.logo{
+margin-bottom: 20px;
+}
+
+.header h1{
+  margin-top: 0;
+  font-size: 38px;
+  letter-spacing: -0.05em;
+}
+.main ul{
+  margin-top:40px;
+  max-width: 400px;
+}
+.main li{
+  line-height: 2.5;
+  font-size: 16px;
+}
+.main li::marker{
+  color:#61DAFB;
+  font-size:1.4em
+}
